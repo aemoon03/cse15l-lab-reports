@@ -5,3 +5,6 @@ In order to use remote access, there are three steps:
    In order to install VSCode, head to the VSCode website (https://code.visualstudio.com/). 
    Once at the website, download vscode for your version of operating system (Windows, Apple, etc). 
    Once installed, open the program and it should look something like this: 
+   ![image](https://user-images.githubusercontent.com/112985603/212772936-af967dc1-fec8-4f59-bbb1-685b10fa1e69.png)
+
+2. 
