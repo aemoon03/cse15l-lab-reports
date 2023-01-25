@@ -1,13 +1,14 @@
 This blog post is intended to instruct a user on how to use remote access. 
 
 In order to use remote access, there are three steps: 
-1. Install VSCode 
+
+## 1.Install VSCode 
    In order to install VSCode, head to the VSCode website (https://code.visualstudio.com/). 
    Once at the website, download vscode for your version of operating system (Windows, Apple, etc). 
    Once installed, open the program and it should look something like this: 
    ![image](https://user-images.githubusercontent.com/112985603/212772936-af967dc1-fec8-4f59-bbb1-685b10fa1e69.png)
 
-2. Remotely Connecting 
+## 2. Remotely Connecting 
    In order to remotely connect, first the user has to install git and git bash, which can be found at this link: 
    https://git-scm.com/download/win. Once downloaded, open the terminal in VSCode and toggle from powershell to bash 
    in the dropdown menu given in the terminal: 
@@ -18,7 +19,15 @@ In order to use remote access, there are three steps:
    ![image](https://user-images.githubusercontent.com/112985603/212774443-a6a81039-7e90-4af0-ace4-cdac2cfac821.png)                                       
    and congratulations! You have successfully remotely connected! 
   
-3. Trying Some Commands 
+## 3. Trying Some Commands 
    Once in the bash terminal, try running some commands! (ex: cd, pwd, cp, cat), like so: 
    ![image](https://user-images.githubusercontent.com/112985603/212774935-5aa14dd2-1eb3-45b4-ae9c-5597c6afdbf9.png)
+   As shown in the image, these commands are:\
+   cd: change working directory\
+   cd ~ : change working directory to home directory\
+   pwd: prints your current working directory\
+   ls: lists files in your working directory\
+   ls -a : lists all files, including hidden ones starting with "."\
+   cp: copies files, the command in the image copies the file hello.txt to your home directory.\
+   cat: reads the file information and prints their outputs. You can see that running cat for the hello.txt file prints the contents of the file.\
    Once you are done, you can log out of the remote server in your terminal by typing the command exit. 
