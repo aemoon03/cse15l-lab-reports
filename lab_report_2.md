@@ -31,3 +31,5 @@ As we can see, the JUnit tests now run correctly:\
 This approach to the fix is valid, as it will successfully append the node to the end, after having looped through the entirety of the list, rather than creating 
 new nodes infintely. 
 ### Part 3:
+One thing that I learned in lab that I didn't have prior knowledge of was being able to create web servers in Java. Previously, that connection just had never been
+made in my mind. In addition to this, I didn't know that you could create a web server using your own local host, and then create your own port, and then modify different constants and variables by manipulating the path of the url. Also, I learned that when doing this through the ssh remote server, you can connect to other studen'ts web servers by finding the ieng6 computer that their website is on, and then typing their port into the url. 
