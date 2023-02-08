@@ -13,7 +13,7 @@ and put on the display of the webpage.\
 Here, essentially the same thing is happening. Only this time, inputs already has one element inside of it from\
 the previous call, so the next input is printed on the line under it. 
 ### Part 2: 
-The bug that I chose to look at was the bug in *LinkedListExamples.java*.\
+The bug that I chose to look at was the bug in **LinkedListExamples.java**.\
 Here is one input that induces failure:\
 ![image](https://user-images.githubusercontent.com/112985603/215389822-bce89127-377a-4497-afe6-3687c79cb75c.png)
 
@@ -25,7 +25,7 @@ The symptom of this bug is that it causes an infinite loop:\
 The reason that this bug occurs is that the code originally assigns n.next to a new node, therefore causing n.next to never be null, meaning that the while
 loop will never terminate, as seen in the code below:\
 ![image](https://user-images.githubusercontent.com/112985603/215417153-f4a1e30f-79ae-4b6f-8f96-93c81a7b4b48.png)\
-This can be fixed by putting the line n.next = new Node(value, null) outside of the while loop.\
+This can be fixed by putting the line *n.next = new Node(value, null)* outside of the while loop.\
 ![image](https://user-images.githubusercontent.com/112985603/215417520-d686366e-18b7-4aca-bb24-a20894fec18f.png)\
 As we can see, the JUnit tests now run correctly:\
 ![image](https://user-images.githubusercontent.com/112985603/215417605-163974f7-e13e-4f39-80de-4daa5952729d.png)\
