@@ -5,13 +5,9 @@ My code is as follows:
 ![image](https://user-images.githubusercontent.com/112985603/215298665-448d8d88-ab40-49b8-854d-4426d3c21ab4.png)
 Here are screenshots of the actual webpage itself:\
 ![image](https://user-images.githubusercontent.com/112985603/215299123-4390da19-4f12-4b1a-970f-8a089990eb95.png)\
-In this screenshot, the method *handleRequest* is being used. This method takes the argument of a URI (the url of\
-the webpage), and if "add-message" is found in the url, then it adds the string after "s=" in the url to an\
-ArrayList called inputs. After this, inputs is formatted into a String called *display*, which is then returned\
-and put on the display of the webpage.\
+In this screenshot, the method *handleRequest* is being used. This method takes the argument of a URI (the url of the webpage), and if "add-message" is found in the url, then it adds the string after "s=" in the url to an ArrayList called inputs. After this, inputs is formatted into a String called *display*, which is then returned and put on the display of the webpage.\
 ![image](https://user-images.githubusercontent.com/112985603/215299185-aa15b794-78ea-438f-b793-e6b454d70f14.png)\
-Here, essentially the same thing is happening. Only this time, inputs already has one element inside of it from\
-the previous call, so the next input is printed on the line under it. 
+Here, essentially the same thing is happening. Only this time, inputs already has one element inside of it from the previous call, so the next input is printed on the line under it. 
 ### Part 2: 
 The bug that I chose to look at was the bug in **LinkedListExamples.java**.\
 Here is one input that induces failure:\
