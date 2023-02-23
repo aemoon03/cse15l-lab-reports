@@ -27,7 +27,7 @@ Started Timer\
   ![image](https://user-images.githubusercontent.com/112985603/220793954-d14288e0-6608-460e-ad2f-55a293ef1d22.png)\
   Keys Pressed: `<up>, <up>, <enter>, <up>, <up>, <enter>`\
   the javac and java commands were already in recent history, so I just used the up arrows to access them.\
-  **Step 8**\
+  **Step 9**\
   ![image](https://user-images.githubusercontent.com/112985603/220794096-ebc1fd24-c817-4a40-b051-b2ad89d6e0c1.png)\
   Keys Pressed: `git add ., ctrl + r, com, <enter>, git push`\
   in order to add, I believed that I could just type `git add .` fast enough and accurately enough without having to use any commands. because the commit command was already in the history from having used it previously, I used `Ctrl + R` to access it, and then likewise with add, i believed that I could type `git push` fast enough and accurately enough without having to warrant using any commands. 
